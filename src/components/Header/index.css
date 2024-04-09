@@ -1,0 +1,53 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.menu-listitem-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.close-icon {
+  display: flex;
+  align-self: flex-end;
+  cursor: pointer;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 20px;
+}
+.website-logo {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+.hamburger-icon-class {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.home-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
+.about-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
+.home-para {
+  font-size: 30px;
+  margin-left: 10px;
+}
+.about-para {
+  font-size: 30px;
+  margin-left: 10px;
+}
